@@ -42,7 +42,7 @@ letter-spacing:2px;
 
 } */
 
-.nav1 label i {
+.nav1 .menu i {
     cursor: pointer;
     visibility: hidden;  
     opacity: 0%;
@@ -214,7 +214,7 @@ padding: 4% 0%;
 
 @media (max-width: 992px ) {
 
-    .nav1 {
+    .nav1{
         /* display: none; */
         /* padding:0%;
         margin:0%; */
@@ -239,6 +239,30 @@ padding: 4% 0%;
         /* z-index: -1111; */
     }
 
+    .nav1 .menu i {
+        visibility: visible;
+        opacity: 100%;
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        position: absolute;
+        right:2%;
+        top: 40%;
+        z-index: 1111;
+      }
+
+   
+      .side_section {
+        background-color: white;
+        width: 26%;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+        opacity: 0%;
+    }
+
     .side_section .logo h1{
         padding: 0 2%;
         color: rgb(15, 15, 15);
@@ -249,28 +273,6 @@ padding: 4% 0%;
         letter-spacing:4px;
         position: absolute;
         left: 2%;
-    }
-
-      .nav1 label i {
-      visibility: visible;
-      opacity: 100%;
-      color: rgb(255, 255, 255);
-      font-size: 22px;
-      position: absolute;
-      right:2%;
-      top: 40%;
-      z-index: 1111;
-    }
-    .side_section {
-        background-color: white;
-        width: 26%;
-        position: absolute;
-        left: 0%;
-        top: 0%;
-        margin: 0;
-        padding: 0;
-        visibility: hidden;
-        opacity: 0%;
     }
 
     .side_section .nav_first{
@@ -286,10 +288,14 @@ padding: 4% 0%;
         padding-left: 6%;
     }
 
-    .nav1 #menu:checked ~ .side_section , .side_section .nav_first ,.side_section .nav_second{
+    .nav1 #menu:checked ~ .side_section , .side_section .nav_first ,.side_section .nav_second {
         /* display:block; */
        visibility:visible;
        opacity: 100%;
+    }
+
+    .nav1 #menu:checked ~  label i{
+       background-color: rgb(131, 128, 128);
     }
 
 
