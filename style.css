@@ -1,0 +1,354 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1700px;
+   font-family: "Roboto", sans-serif;
+
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.side_section {
+    /* background-color: darkgray; */
+    width: 15%;
+    /* height: 620px; */
+    /* text-align: center; */
+    margin-left: 12%;
+    /* padding: 2%; */
+    overflow: auto;
+ }
+
+.side_section .logo h1{
+/* text-align: center; */
+padding-bottom: 22%;
+font-weight: 400;
+font-size: 30px;
+letter-spacing:2px;
+}
+
+/* .side_section .logo i{
+    cursor: pointer;
+
+} */
+
+.nav1 label i {
+    cursor: pointer;
+    visibility: hidden;  
+    opacity: 0%;
+}
+
+/* .side_section .logo */
+
+.nav1 input{
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0%; 
+}
+
+
+
+
+.side_section  .nav_first{
+    /* background-color: aquamarine; */
+    font-weight:lighter!important;
+}
+
+.side_section  .nav_first .navv{
+    /* background-color: rgb(226, 204, 175); */
+    padding-bottom:15%;
+}
+
+.side_section  .nav_first .navv ul {
+    z-index: 111111111;
+    color: #8b7979;
+}
+
+.side_section  .nav_first .navv ul li {
+    padding: 5% 0%;
+    font-size: 18px;
+    font-weight: 600;
+    /* position: relative; */
+}
+
+.side_section  .nav_first .navv ul li a{
+font-family: "Roboto", sans-serif;
+/* padding:5% 0; */
+/* font-size: 18px; */
+/* font-weight: 600; */
+/* height: 100%;
+width: 100%; */
+/* display: inline-block; */
+}
+
+.side_section  .nav_first .navv li:hover {
+    /* width: 100%;
+    padding:5% 0;  */
+    color: #000!important;
+    background-color: #a1a1a19f !important;
+    
+}
+
+
+.side_section  .nav_first .navv .firstul label i {
+    cursor: pointer;
+    padding-right: 56%;
+    /* position: absolute;
+    top:30%;
+    left: 24%; */
+}
+
+.side_section  .nav_first .navv .firstul input {
+    display: none;
+}
+
+.side_section  .nav_first .navv ul li .dropdown{
+    padding: 3%;
+    margin-left: 12%;
+    display: none;
+}
+
+.side_section  .nav_first .navv .firstul li #dropaction:checked ~ .dropdown{
+    display: block;
+    /* padding: 3%;
+    margin-left: 12%; */
+}
+
+.side_section  .nav_first .navv ul li .dropdown i {
+    padding-right: 9%;
+}
+
+.side_section  .nav_first .navv ul li .dropdown li{
+/* padding: 4% 3%; */
+font-size: 15px;
+
+}
+
+.side_section  .nav_first .navv .firstul > li:nth-child(3) { /* > عشان احدد بس الليست الاولى مش ياخد معاها الليست الي تحتها كمان  */
+    color: black !important;
+}
+
+/* .side_section  .nav_first .nav .firstul > li:nth-child(3):hover{
+    background-color: unset;
+} */
+
+.side_section  .nav_first .navv ul li .dropdown li:nth-child(1){
+    background-color: rgba(185, 184, 184, 0.37);
+    color: black !important;
+
+}
+
+/* .side_section  .nav_first .nav ul li:nth-child(3).dropdown{
+display: none;
+padding-bottom: 3%;
+
+} */
+
+    /* اول دروب داون بعد الA */
+
+/* .side_section  .nav_first .nav ul li:nth-child(3) a:hover + .dropdown{    
+ 
+    display: block;
+} */
+
+
+/* ----------------------------------------------- */
+
+.side_section  .nav_second{
+    /* background-color: coral; */
+}
+
+.side_section  .nav_second ul li{
+font-size: 15px;
+padding: 4% 0%;
+}
+
+.side_section  .nav_second ul li:hover {
+    background-color: #a1a1a19f;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================   MEDIA  ================================================ */
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+@media (max-width: 992px ) {
+
+    .nav1 {
+        /* display: none; */
+        /* padding:0%;
+        margin:0%; */
+        /* overflow: auto; */
+        background-color: black;
+        width: 100%;
+        /* 80 before */
+        height: 90px;
+        position: relative;
+    }
+
+    .nav1::after{
+        content:'LOGO';
+        position:absolute;
+        color: white;
+        z-index: 2222222;
+        left: 2%;
+        top:40%;
+        font-weight: 400;
+        font-size: 26px;
+        letter-spacing:4px;
+        /* z-index: -1111; */
+    }
+
+    .side_section .logo h1{
+        padding: 0 2%;
+        color: rgb(15, 15, 15);
+        align-items: center;
+        font-weight: 500;
+        background-color: white;
+        font-size: 28px;
+        letter-spacing:4px;
+        position: absolute;
+        left: 2%;
+    }
+
+      .nav1 label i {
+      visibility: visible;
+      opacity: 100%;
+      color: rgb(255, 255, 255);
+      font-size: 22px;
+      position: absolute;
+      right:2%;
+      top: 40%;
+      z-index: 1111;
+    }
+    .side_section {
+        background-color: white;
+        width: 26%;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    .side_section .nav_first{
+        /* display: none; */
+        visibility: hidden;
+        opacity: 0%;
+        padding-top: 48%;
+        padding-left: 6%;
+        /* padding: 0% 6%; */
+    }
+
+    .side_section .nav_second{
+        padding-left: 6%;
+    }
+
+    .nav1 #menu:checked ~ .side_section , .side_section .nav_first ,.side_section .nav_second{
+        /* display:block; */
+       visibility:visible;
+       opacity: 100%;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+@media (max-width: 797px ) {
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+@media (max-width: 575px ) {
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
