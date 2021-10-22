@@ -358,6 +358,26 @@ color: white;
     font-size: 14px;
 }
 
+.items .box_item:nth-child(7) button{
+visibility:hidden;
+cursor: pointer;
+padding: 11px 25px;
+border: none;
+background-color: black;
+color: white;
+position: absolute;
+top: 35%;
+left: 25%;
+}
+.items .box_item:nth-child(7):hover button{
+    visibility:visible;
+}
+.items .box_item:nth-child(7) button:hover{
+    background-color: rgb(179, 174, 174);
+    color: black;
+}
+
+
 .items .box_item img{
     width: 100%;
 }
