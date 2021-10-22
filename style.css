@@ -6,7 +6,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     max-width: 1700px;
-   font-family: "Roboto", sans-serif;
+   font-family: "Montserrat", sans-serif;
 
 }
 
@@ -27,6 +27,9 @@ a{
     margin-left: 12%;
     /* padding: 2%; */
     overflow: auto;
+    margin-top: -28px;
+    /* position: sticky;
+    top: 0; */
  }
 
 .side_section .logo h1{
@@ -179,6 +182,352 @@ padding: 4% 0%;
 }
 
 
+/* ------------------------------------------------------------------------------- */
+
+
+header{
+   width: 60%; 
+   /* background-color: coral; */
+   /* display: grid;
+   justify-content: center;
+   align-items: center; */
+   /* float: right; */
+   position: absolute;
+   top: 0;
+   right: 13%;
+   padding: 0 1%;
+
+
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 27px;
+ 
+}
+
+header a{
+    font-size:22px;
+}
+header .shoppingicon {
+    position: absolute;
+   
+    top:33%;
+    right: 5%;
+}
+
+header .searchicon{
+    position: absolute;
+    top:33%;
+    /* right:-1%; */
+    right: 0%;
+
+}
+
+
+
+/* ------------------------------------------------------------ */
+
+
+
+.photoheader{
+    width: 100%; 
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+    /* float: right; */
+    position: absolute;
+    top:77px;
+    /* right: 13%;  */
+}
+
+
+
+.photoheader img{
+   
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* z-index: -1; */
+}
+
+.photoheader .img-content{
+position: absolute;
+width: 50%;
+top: 0%;
+left: 5%;
+/* background-color: rgb(122, 122, 57); */
+}
+
+.photoheader .img-content h1{
+    font-size: 66px;
+    font-weight: 400;
+    color: white;
+    margin-bottom:-3%;
+}
+
+.photoheader .img-content p{
+    font-size: 36px;
+    color: white;
+    margin-bottom:4%;
+}
+
+.photoheader .img-content .btn{
+padding: 3% 6%;
+font-size: 18px;
+font-weight: 400;
+background-color: black;
+border: none;
+color: white;
+}
+
+.photoheader .img-content .btn:hover{
+    color: black;
+    background-color:#ccc!important ;
+}
+
+/* ---------------------------------------------------------- */
+
+
+.contaner{
+    width: 62%;
+    margin-left: 26%;
+}
+
+/* ------------------------------------------------------------ */
+
+.items_p{
+    color: darkgray;
+    display: block;
+    padding: 8% 0 1% 0;
+}
+
+/* ------------------------------------------------------------ */
+
+.items{
+    margin: 0;
+    display:grid;
+    column-gap: 3%;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    filter:grayscale(77%) ;
+    -webkit-filter:grayscale(77%) ;
+}
+
+.items .box_item {
+ /* width: 20%; */
+ /* height: 11%; */
+ position: relative;
+}
+
+.items .box_item:nth-child(7)>p:nth-child(3) {
+    color: rgb(250, 49, 49);
+ }
+
+ 
+.items .box_item:nth-child(2)::before{
+    content: 'New';
+    position: absolute;
+    /* width: 40px;
+    height: 20px; */
+    padding: 3px 10px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.items .box_item:nth-child(2):hover::after{
+    content: 'buy now';
+    position: absolute;
+    top: 33%;
+    left: 27%;
+    padding: 11px 25px;
+    background-color: black;
+    color: white;
+    z-index: 44;
+}
+
+.items .box_item:nth-child(7)::before{
+    content: 'New';
+    position: absolute;
+    /* width: 40px;
+    height: 20px; */
+    padding: 3px 10px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.items .box_item img{
+    width: 100%;
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+footer{
+/* height: 600px; */
+background-color: black;
+}
+
+footer .black_upper_footer{
+    color: white;
+    padding: 2% 2% 4% ;
+}
+
+footer .black_upper_footer h1{
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+footer .black_upper_footer input{
+    width: 98%;
+    padding: 1%;
+
+}
+
+footer .black_upper_footer button{
+    margin:2% 0;
+    padding: 1% 2%;
+    background-color: #f44336 ;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+footer .footer_content {
+    padding: 6% 4%;
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: flex-start;
+    background-color: #f1f1f1 !important
+}
+
+.footer_content > div{
+width: 33%;
+letter-spacing: 1.2px;
+}
+
+footer .footer_contact h4{
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;   
+}
+
+footer .footer_contact p{
+   font-size: 12px;
+   letter-spacing: 1.2px;
+   text-align: center;
+}
+
+footer .footer_contact form input {
+    width: 100%;
+    /* height: 40%; */
+    margin-bottom: 4%;
+    /* margin-left: 2%; */
+    padding: 4%;
+    border: 1px solid #ccc!important ;
+}
+
+footer .footer_contact form button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 4% 54%;
+    border: none;
+    /* margin-left: 2%; */
+}
+
+footer .footer_about {
+    padding: 0 4%;
+}
+
+footer .footer_about h4{
+text-align: center;
+font-weight: 400;
+font-size: 20px;   
+}
+
+footer .footer_about ul {
+   text-align: center;
+}
+
+footer .footer_about ul li a{
+    display: inline-block;
+    padding: 3%;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+footer .footer_store h4{
+    font-weight: 400;
+    font-size: 20px;   
+}
+footer .footer_store p{
+    padding: 1% 0;
+    font-size: 12px;
+}
+
+footer .footer_store > i{
+    font-size: 17px;
+}
+
+.black_botton_footer{
+    /* background-color: black; */
+    color: white;
+    padding: 1%;
+    text-align: center;
+    font-size: 15px;
+
+}
+.black_botton_footer a{
+  text-decoration: underline;
+  font-weight:lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -298,17 +647,40 @@ padding: 4% 0%;
        background-color: rgb(131, 128, 128);
     }
 
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------start header --------------------------------------------------------- */
+header{
+
+        top: 20%;
+        /* z-index: 1; */
+        background: white;
+        width: 100%;
+        right:unset;
+    }
 
 
 
+/* --------------------------------------------------------------------------------------------------- */
 
 
 
+/* ------------------------------------------start photoheader--------------------------------------------------------- */
 
+.photoheader {
+    width: 100%; 
+    right:unset;
+    top: 100%;
+  
 
+}
+.photoheader img{
+    width: 97%;
 }
 
 
+/* --------------------------------------------------------------------------------------------------- */
 
 
 
@@ -358,3 +730,4 @@ padding: 4% 0%;
 
 /* ---------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------- */
+}
