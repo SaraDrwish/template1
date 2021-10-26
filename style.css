@@ -39,6 +39,7 @@ padding-bottom: 22%;
 font-weight: 400;
 font-size: 30px;
 letter-spacing:2px;
+margin-top: 23%;
 
 }
 
@@ -62,8 +63,6 @@ letter-spacing:2px;
 }
 
 
-
-
 .side_section  .nav_first{
     /* background-color: aquamarine; */
     font-weight:lighter!important;
@@ -85,6 +84,8 @@ letter-spacing:2px;
     font-size: 18px;
     font-weight: 600;
     /* position: relative; */
+    margin-right: 4%;
+
 }
 
 .side_section  .nav_first .navv ul li a{
@@ -102,7 +103,7 @@ width: 100%; */
     padding:5% 0;  */
     color: #000!important;
     background-color: #a1a1a19f !important;
-    
+     
 }
 
 
@@ -172,6 +173,8 @@ padding-bottom: 3%;
 
 .side_section  .nav_second{
     /* background-color: coral; */
+    margin-right: 4%;
+
 }
 
 .side_section  .nav_second ul li{
@@ -187,7 +190,6 @@ padding: 4% 0%;
 
 /* ------------------------------------------------------------------------------- */
 
-
 header{
    width: 60%; 
    /* background-color: coral; */
@@ -200,13 +202,11 @@ header{
    right: 13%;
    padding: 0 1%;
 
-
 }
 
 header h2 {
     font-weight: 300;
     font-size: 27px;
- 
 }
 
 header a{
@@ -228,13 +228,12 @@ header .searchicon{
 }
 
 
-
 /* ------------------------------------------------------------ */
-
 
 
 .photoheader{
     width: 100%; 
+    margin-left: 1%;
     /* display: grid;
     justify-content: center;
     align-items: center; */
@@ -289,7 +288,6 @@ color: white;
 
 /* ---------------------------------------------------------- */
 
-
 .contaner{
     width: 62%;
     margin-left: 26%;
@@ -300,7 +298,7 @@ color: white;
 .items_p{
     color: darkgray;
     display: block;
-    padding: 8% 0 1% 0;
+    padding: 8% 0 1% 1%;
 }
 
 /* ------------------------------------------------------------ */
@@ -559,17 +557,6 @@ footer .footer_store > i{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* ==================================================   MEDIA  ================================================ */
 
 /* ---------------------------------------------------------------------------------------- */
@@ -664,8 +651,6 @@ footer .footer_store > i{
        background-color: rgb(131, 128, 128);
     }
 
-
-
  
     
 /* --------------------------------------------------------------------------------------------------- */
@@ -693,7 +678,6 @@ header{
     right:unset;
     top: 100%;
   
-
 }
 .photoheader img{
     width: 97%;
@@ -729,7 +713,6 @@ width: 99%;
 padding: 0 2% 0 1%;
 grid-template-columns: repeat(2 , 1fr);
 grid-template-rows: repeat(4 , 1fr);
-
 }
 
 /* --------------------------------------------------------------------------------------------------- */
@@ -743,7 +726,6 @@ width: 100%;
 
 .black_upper_footer{
     /* margin-top:90%; */
-  
 }
 
 /* ---------------------------------------------------------------------------------------- */
@@ -759,15 +741,7 @@ width: 100%;
 
 
 
-
-
-
-
-
-
-
 /* ---------------------------------------------------------------------------------------- */
-
 
 
 
@@ -778,9 +752,6 @@ width: 100%;
     
     
 }
-
-
-
 
 
 
