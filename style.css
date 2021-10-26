@@ -28,8 +28,9 @@ a{
     /* padding: 2%; */
     overflow: auto;
     margin-top: -28px;
-    /* position: sticky;
-    top: 0; */
+    position: fixed;
+    top: 0;
+   
  }
 
 .side_section .logo h1{
@@ -38,6 +39,7 @@ padding-bottom: 22%;
 font-weight: 400;
 font-size: 30px;
 letter-spacing:2px;
+
 }
 
 /* .side_section .logo i{
@@ -65,6 +67,7 @@ letter-spacing:2px;
 .side_section  .nav_first{
     /* background-color: aquamarine; */
     font-weight:lighter!important;
+   
 }
 
 .side_section  .nav_first .navv{
@@ -241,14 +244,12 @@ header .searchicon{
     /* right: 13%;  */
 }
 
-
-
 .photoheader img{
-   
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     /* z-index: -1; */
+    margin-bottom: 90%;
 }
 
 .photoheader .img-content{
@@ -304,8 +305,11 @@ color: white;
 
 /* ------------------------------------------------------------ */
 .itemscont{
-    margin: auto;
+    /* margin: auto; */
     width: 100%;
+    margin-top: 84%;
+    /* position: relative;
+    top: 60% */
     
 }
     
@@ -353,7 +357,7 @@ color: white;
 }
 
 .items .box_item:nth-child(7)::before{
-    content: 'New';
+    content: 'Sale';
     position: absolute;
     /* width: 40px;
     height: 20px; */
@@ -387,7 +391,11 @@ left: 25%;
     width: 100%;
 }
 
-
+.items_p{
+    width: 100%;
+    position: absolute;
+    top: 85%;
+}
 /* ---------------------------------------------------------- */
 
 
@@ -579,6 +587,9 @@ footer .footer_store > i{
         /* 80 before */
         height: 90px;
         position: relative;
+        position: sticky;
+        top: 0;
+        z-index: 11111;
     }
 
     .nav1::after{
@@ -690,6 +701,15 @@ header{
 
 /* ---------------------------------------------------------------------------------------- */
 
+.items_p {
+    /* z-index: 11111; */
+    top: 200%;
+    padding-left: 1%;
+}
+/* .items_p  p{
+    top: 200%;
+    padding-left: 1%;
+} */
 
 .contaner {
     width: 100%;
